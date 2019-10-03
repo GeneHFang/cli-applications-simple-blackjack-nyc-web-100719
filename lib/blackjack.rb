@@ -42,7 +42,11 @@ def hit?
   total = initial_round
   if (inp == h)
     total += deal_card
+  elsif (inp == s)
+  else
+    invalid_command
   end
+  
     
 end
 
