@@ -20,8 +20,8 @@ end
 
 def get_user_input
   # code #get_user_input here
-  inp = $stdin.read
-  
+  inp = gets
+  gets
 end
 
 def end_game
