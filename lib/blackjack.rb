@@ -38,8 +38,12 @@ end
 
 def hit?
   # code hit? here
-  get_user_input
-  
+  inp = get_user_input
+  total = initial_round
+  if (inp == h)
+    total += deal_card
+  end
+    
 end
 
 def invalid_command
