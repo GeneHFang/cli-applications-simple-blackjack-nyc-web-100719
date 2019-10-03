@@ -36,17 +36,17 @@ def initial_round
   total
 end
 
-def hit?()
+def hit?(total)
   # code hit? here
   prompt_user
   inp = get_user_input
-  total = initial_round
+  hand = total
   if (inp == h)
-    total += deal_card
+    hand += deal_card
   elsif (inp == s)
   else
     invalid_command
-    hit?
+    hit?(hand)
   end
   
     
