@@ -45,6 +45,7 @@ def hit?
   elsif (inp == s)
   else
     invalid_command
+    hit?
   end
   
     
