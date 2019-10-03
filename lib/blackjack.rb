@@ -46,7 +46,6 @@ def hit?(total)
   elsif (inp == s)
   else
     invalid_command
-    hit?(hand)
   end
   
   hand
