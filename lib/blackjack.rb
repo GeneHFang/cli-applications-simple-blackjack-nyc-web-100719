@@ -46,7 +46,7 @@ def hit?(total)
   elsif (inp == 's')
   else
     invalid_command
-    prompt_user
+    total = hit?(total)
   end
   
   total
