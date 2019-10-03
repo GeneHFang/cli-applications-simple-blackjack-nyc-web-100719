@@ -49,7 +49,7 @@ def hit?(total)
     hit?(hand)
   end
   
-    
+  hand
 end
 
 def invalid_command
