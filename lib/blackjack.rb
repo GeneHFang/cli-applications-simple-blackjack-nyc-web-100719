@@ -40,15 +40,15 @@ def hit?(total)
   # code hit? here
   prompt_user
   inp = get_user_input
-  hand = total
-  if (inp == h)
-    hand += deal_card
-  elsif (inp == s)
+  
+  if (inp == 'h')
+    total += deal_card
+  elsif (inp == 's')
   else
     invalid_command
   end
   
-  hand
+  tlta
 end
 
 def invalid_command
