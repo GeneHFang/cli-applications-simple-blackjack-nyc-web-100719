@@ -48,7 +48,7 @@ def hit?(total)
     invalid_command
   end
   
-  tlta
+  total
 end
 
 def invalid_command
