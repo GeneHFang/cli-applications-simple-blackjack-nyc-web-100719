@@ -38,6 +38,7 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
   inp = get_user_input
   total = initial_round
   if (inp == h)
