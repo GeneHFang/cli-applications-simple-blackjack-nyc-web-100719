@@ -38,6 +38,8 @@ end
 
 def hit?
   # code hit? here
+  get_user_input
+  
 end
 
 def invalid_command
